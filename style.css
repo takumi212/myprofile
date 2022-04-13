@@ -119,36 +119,28 @@ header p {
 }
 
 a#instagram {
-  position: relative;/*相対配置*/
-  display: inline-block;
-  width: 50px;/*幅*/
-  height: 50px;/*高さ*/
-  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
-  overflow: hidden;/*はみ出た部分を隠す*/
-  border-radius: 13px;/*角丸に*/
-
-  display: inline-block;
-  text-align: center;/*中央揃え*/
-  color: #2e6ca5;/*文字色*/
-  font-size: 20px;/*文字サイズ*/
-  text-decoration: none;/*下線消す*/
-
-  
-}
-
-a#instagram:before {
-  content:url("data:images/ping;base64,・・・");
-  content: '';
-  position: absolute;/*絶対配置*/
-  top: 23px;/*ずらす*/
-  left: -18px;/*ずらす*/
-  width: 60px;/*グラデーションカバーの幅*/
-  height: 60px;/*グラデーションカバーの高さ*/
-  background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
-  background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
-}
-
+   background: linear-gradient(135deg, #427EFF 0%, #F13F79 70%) no-repeat;
+   overflow: hidden;
+   font-size: 20px;
+   font-weight: bold;
+   letter-spacing: 0;
+   position: relative;
+   border-radius: 4px;
+   margin-left: 15px;
+   margin-right: 10px;
+   text-decoration: none;
+   margin-bottom: 5px;
+ }
+ a#facebook {
+   background: #3B5998;
+   overflow: hidden;
+   font-weight: bold;
+   font-family:'Courier',sans-serif;/* 好きなフォントに変えてね */
+   border-radius: 4px;
+   font-size: 20px;
+   color: white;
+   text-decoration: none;
+ }
 
 a#facebook {
   background: #3b5998;

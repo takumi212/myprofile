@@ -10,7 +10,7 @@ html, body,
  
  body {
  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
-
+ background-color: #C0C0C0;
  }
 
 .li {
@@ -19,7 +19,11 @@ html, body,
 
 header {
   background-color: royalblue;
-  
+  opacity: 0.5;
+}
+
+header p {
+  font-family: sans-serif;
 }
 
 .left-box {
@@ -50,6 +54,7 @@ header {
   margin-right: 800px;
   vertical-align: middle;
   margin-top: 300px;
+
 }
 
 
@@ -60,6 +65,7 @@ header {
   width: 50%;
   background-color: #FAB1AF;
   z-index: 1;
+  padding-bottom: 20px;
 }
 
 .html {
@@ -113,18 +119,36 @@ header {
 }
 
 a#instagram {
-  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-  overflow: hidden;
-  font-size: 20px; 
-  font-weight: bold;
-  letter-spacing: 0;
-  position: relative;
-  border-radius: 4px;
-  margin-left: 15px;
-  margin-right: 10px;
-  text-decoration: none;
-  margin-bottom: 5px;
+  position: relative;/*相対配置*/
+  display: inline-block;
+  width: 50px;/*幅*/
+  height: 50px;/*高さ*/
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  overflow: hidden;/*はみ出た部分を隠す*/
+  border-radius: 13px;/*角丸に*/
+
+  display: inline-block;
+  text-align: center;/*中央揃え*/
+  color: #2e6ca5;/*文字色*/
+  font-size: 20px;/*文字サイズ*/
+  text-decoration: none;/*下線消す*/
+
+  
 }
+
+a#instagram:before {
+  content:url("data:images/ping;base64,・・・");
+  content: '';
+  position: absolute;/*絶対配置*/
+  top: 23px;/*ずらす*/
+  left: -18px;/*ずらす*/
+  width: 60px;/*グラデーションカバーの幅*/
+  height: 60px;/*グラデーションカバーの高さ*/
+  background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+  background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);/*グラデーション②*/
+}
+
 
 a#facebook {
   background: #3b5998;
@@ -145,7 +169,7 @@ footer {
 }
 
 footer h3 {
-  margin-top: 650px;
+  margin-top: 600px;
   padding-top: 20px;
   /*margin-left: 620px;*/
   /*margin-right: 620px;*/

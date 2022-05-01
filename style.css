@@ -18,13 +18,55 @@ html, body,
 }
 
 header {
-  background-color: royalblue;
-  opacity: 0.5;
+  transform: translateX(93%);
+  transition: all 1s;
+
+  display: grid;
+  justify-content: start;
+  grid-template-columns: auto,auto;
+
 }
+
+
+
+header:hover {
+  transform: translateX(0%);
+  opacity: 0.5;
+  background-color: royalblue;
+  cursor: ew-resize;
+
+
+}
+
+header h4 {
+  writing-mode: vertical-rl;
+  color: yellow;
+
+  grid-column: 1;
+  grid-row: 1 / span 2;
+
+  background: black;
+}
+
+header h2 {
+  text-align: center;
+
+  grid-column: 2;
+  grid-row: 1;
+
+ overflow: hidden;
+
+} 
 
 header p {
   font-family: sans-serif;
+
+  grid-column: 2;
+  grid-row: 2;
+
+  overflow: hidden;
 }
+
 
 
 

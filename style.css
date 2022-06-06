@@ -7,10 +7,20 @@ html, body,
  margin: 0;
  padding: 0;
  }
+
+ html {
+  /*height: 100%;*/
+  /*width: 100%;*/
+ }
  
  body {
- font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
- background-color: #C0C0C0;
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+  background-color: #C0C0C0;
+
+  height: 100%;
+  width: 100%;
+
+
  }
 
 .li {
@@ -18,22 +28,32 @@ html, body,
 }
 
 header {
-  transform: translateX(93%);
-  transition: all 1s;
+  /*overflow: hidden;*/
+
+  /*transform: translateX(93%);*/
+  /*transition: all 1s;*/
+  
+  /*display: none;*/
 
   display: grid;
   justify-content: start;
+
   grid-template-columns: auto,auto;
+
+  opacity: 0.5;
+  background-color: royalblue;
+  cursor: text;
 
 }
 
 
 
-header:hover {
+
+/*header:hover {*/
   transform: translateX(0%);
-  opacity: 0.5;
-  background-color: royalblue;
-  cursor: ew-resize;
+  /*opacity: 0.5;*/
+  /*background-color: royalblue;*/
+  /*cursor: ew-resize;*/
 
 
 }
@@ -51,8 +71,8 @@ header h4 {
 header h2 {
   text-align: center;
 
-  grid-column: 2;
-  grid-row: 1;
+  /*grid-column: 2;*/
+  /*grid-row: 1;*/
 
  overflow: hidden;
 
@@ -61,10 +81,15 @@ header h2 {
 header p {
   font-family: sans-serif;
 
-  grid-column: 2;
-  grid-row: 2;
+  /*grid-column: 2;*/
+  /*grid-row: 2;*/
 
   overflow: hidden;
+}
+
+header h5 {
+  display: flex;
+  align-items: flex-end;
 }
 
 
@@ -276,7 +301,7 @@ footer {
 
 
 footer h3 {
-  margin-top: 600px;
+  margin-top: 570px;
   padding-top: 20px;
   /*margin-left: 620px;*/
   /*margin-right: 620px;*/

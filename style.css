@@ -163,7 +163,9 @@ header h5 {
   /*margin-left: 25%;*/
   margin-right: 800px;
   vertical-align: middle;
-  margin-top: 300px;
+  margin-top: 200px;
+
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 30;;
 }
 
 
@@ -209,6 +211,13 @@ header h5 {
   padding: 3px 4px;
 }
 
+.Java {
+  border-radius: 5px;
+  background-color: rgb(170, 119, 68);
+  display: inline-block;
+  padding: 3px 4px;
+}
+
 .Word {
   border-radius: 5px;
   background-color: lightblue;
@@ -231,7 +240,7 @@ header h5 {
 }
 
 
-.html,.css,.JavaScript,.Python,.Word,.Excel,.PowerPoint {
+.html,.css,.JavaScript,.Python,.Java,.Word,.Excel,.PowerPoint {
   position: relative;
   cursor: pointer;
   border-radius: 5px;
@@ -245,6 +254,7 @@ header h5 {
 .css:hover::after,
 .JavaScript:hover::after,
 .Python:hover::after,
+.Java:hover::after,
 .Word:hover::after,
 .Excel:hover::after,
 .PowerPoint:hover::after {
@@ -270,6 +280,7 @@ header h5 {
 .css:hover::before,
 .JavaScript:hover::before,
 .Python:hover::before,
+.Java:hover::before,
 .Word:hover::before,
 .Excel:hover::before,
 .PowerPoint:hover::before {

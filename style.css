@@ -359,7 +359,104 @@ footer h3 {
 
 
 
+
+
+
+start;
+
+  grid-template-columns: auto,auto;
+
+  opacity: 0.5;
+  background-color: royalblue;
+  cursor: text;
+
+  text-align: center;
+  
+  display: block;
+
 }
+
+
+header .outline1 {
+  font-size: 60px;
+  color: yellow;
+  display: flex;
+  text-align: center;
+  margin-left: 330px;
+  font-family: "Arial Black";
+  font-weight: bold;
+}
+
+
+header .outline2 {
+
+}
+
+header .outline3 {
+  text-align: center;
+
+  display: block;
+
+
+}
+
+
+
+/*header:hover {*/
+  transform: translateX(0%);
+  /*opacity: 0.5;*/
+  /*background-color: royalblue;*/
+  /*cursor: ew-resize;*/
+
+
+}
+
+header h4 {
+  writing-mode: vertical-rl;
+  color: yellow;
+
+  grid-column: 1;
+  grid-row: 1 / span 2;
+
+  background: black;
+}
+
+header h2 {
+  text-align: center;
+
+  /*grid-column: 2;*/
+  /*grid-row: 1;*/
+
+ overflow: hidden;
+
+} 
+
+header p {
+  font-family: sans-serif;
+
+  /*grid-column: 2;*/
+  /*grid-row: 2;*/
+
+  overflow: hidden;
+}
+
+header h5 {
+  display: flex;
+  align-items: flex-end;
+}
+
+
+/*#jbody header::before {
+  content: "クリックを押すとポートフォリオの説明が表示されます。";
+}
+
+#jbody header.open::before {
+  content: "";
+}
+*/
+
+
+
 
 
 

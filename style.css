@@ -44,8 +44,35 @@ header {
   background-color: royalblue;
   cursor: text;
 
+  text-align: center;
+  
+  display: block;
+
 }
 
+
+header .outline1 {
+  font-size: 60px;
+  color: yellow;
+  display: flex;
+  text-align: center;
+  margin-left: 330px;
+  font-family: "Arial Black";
+  font-weight: bold;
+}
+
+
+header .outline2 {
+
+}
+
+header .outline3 {
+  text-align: center;
+
+  display: block;
+
+
+}
 
 
 
@@ -93,8 +120,14 @@ header h5 {
 }
 
 
+/*#jbody header::before {
+  content: "クリックを押すとポートフォリオの説明が表示されます。";
+}
 
-
+#jbody header.open::before {
+  content: "";
+}
+*/
 
 
 
@@ -310,6 +343,10 @@ footer h3 {
   padding-left: 620px;
   /*top: 100px;*/
 }
+
+
+
+
 
 }
 

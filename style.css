@@ -583,9 +583,13 @@ a#facebook {
 
 footer {
   /*position: absolute;*/
+  
   position: fixed;
-  position: absolute;
+
+  /*position: absolute;*/
   bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 
@@ -601,7 +605,7 @@ footer h3 {
   /*top: 100px;*/
   width: 110%;
 
-  /*position: fixed;*/
+
 }
 
 

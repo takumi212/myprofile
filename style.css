@@ -224,6 +224,7 @@ header h5 {
   background-color: lightblue;
   display: inline-block;
   padding: 3px 4px;
+
 }
 
 .Excel {
@@ -231,6 +232,7 @@ header h5 {
   border-radius: 5px;
   display: inline-block;
   padding: 3px 4px;
+
 }
 
 .PowerPoint {
@@ -238,6 +240,7 @@ header h5 {
   border-radius: 5px;
   display: inline-block;
   padding: 3px 4px;
+
 }
 
 
@@ -248,6 +251,8 @@ header h5 {
   padding: 3px 4px;
   margin-bottom: 5px;
   display: inline-block;
+
+
 }
 
 
@@ -273,7 +278,9 @@ header h5 {
   color: black;
   background: white;
 
- box-sizing: border-box;
+  box-sizing: border-box;
+
+
 }
 
 /* 飛び出している部分1 */
@@ -296,6 +303,7 @@ header h5 {
   border-top: 12px solid white;
 
   box-sizing: border-box;
+
 }
 
 

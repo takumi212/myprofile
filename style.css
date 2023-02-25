@@ -34,6 +34,7 @@ header {
   /*transition: all 1s;*/
   
   /*display: none;*/
+  padding-top: 10px;
 
   display: grid;
   justify-content: start;
@@ -359,7 +360,7 @@ footer h3 {
   /*margin-left: 620px;*/
   /*margin-right: 620px;*/
   background-color: darkorange;
-  height: 40px;
+  height: 50px;
   padding-left: 620px;
   /*top: 100px;*/
 }
@@ -609,7 +610,7 @@ footer h3 {
   /*margin-left: 620px;*/
   /*margin-right: 620px;*/
   background-color: darkorange;
-  height: 50px;
+  height: 40px;
   padding-left: 620px;
   /*top: 100px;*/
   width: 57%;

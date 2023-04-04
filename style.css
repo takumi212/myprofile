@@ -18,7 +18,7 @@ html, body,
   background-color: #C0C0C0;
 
   height: 100%;
-  width: 100%;
+  width: 420px;
 
 
  }
@@ -27,115 +27,103 @@ html, body,
   list-style: square inside;
 }
 
-header {
-  /*overflow: hidden;*/
-
-  /*transform: translateX(93%);*/
-  /*transition: all 1s;*/
-  
-  /*display: none;*/
-  padding-top: 10px;
-
-  display: grid;
-  justify-content: start;
-
-  grid-template-columns: auto,auto;
-
-  opacity: 0.5;
-  background-color: royalblue;
-  cursor: text;
-
-  text-align: center;
-  
-  display: block;
-
-
-}
-
-
-header .outline1 {
-  font-size: 60px;
-  color: yellow;
-  display: flex;
-  text-align: center;
-  margin-left: 330px;
-  font-family: "Arial Black";
-  font-weight: bold;
-}
-
-
-header .outline2 {
-
-}
-
-header .outline3 {
-  text-align: center;
-
-  display: block;
-
-
-}
-
-
-
-/*header:hover {*/
-  transform: translateX(0%);
-  /*opacity: 0.5;*/
-  /*background-color: royalblue;*/
-  /*cursor: ew-resize;*/
-
-
-}
-
-header h4 {
-  writing-mode: vertical-rl;
-  color: yellow;
-
-  grid-column: 1;
-  grid-row: 1 / span 2;
-
-  background: black;
-}
-
-header h2 {
-  text-align: center;
-
-  /*grid-column: 2;*/
-  /*grid-row: 1;*/
-
- overflow: hidden;
-
-} 
-
-header p {
-  font-family: sans-serif;
-
-  /*grid-column: 2;*/
-  /*grid-row: 2;*/
-
-  overflow: hidden;
-}
-
-header h5 {
-  display: flex;
-  align-items: flex-end;
-}
-
-
-/*#jbody header::before {
-  content: "クリックを押すとポートフォリオの説明が表示されます。";
-}
-
-#jbody header.open::before {
-  content: "";
-}
-*/
-
-
 
 /*PCの場合*/
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 950px) {
+
+  body {
+    font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+    background-color: #C0C0C0;
+  
+    height: 100%;
+    width: 100%;
+  
+  
+   }
+
+  header {
+   
+    /* padding-top: 10px; */
+  
+    display: grid;
+    justify-content: start;
+  
+    grid-template-columns: auto,auto;
+  
+    opacity: 0.5;
+    background-color: rgb(255, 0, 183);
+    cursor: text;
+  
+    text-align: center;
+    
+    display: block;
+  
+  
+  }
+  
+  
+  header .outline1 {
+    font-size: 60px;
+    color: yellow;
+    display: flex;
+    text-align: center;
+    margin-left: 330px;
+    font-family: "Arial Black";
+    font-weight: bold;
+  }
+  
+  
+  header .outline2 {
+  
+  }
+  
+  header .outline3 {
+    text-align: center;
+  
+    display: block;
+  
+  
+  }
+  
+  
+  
+  }
+  
+  header h4 {
+    writing-mode: vertical-rl;
+    color: yellow;
+  
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  
+    background: black;
+  }
+  
+  header h2 {
+    text-align: center;
+  
+    /*grid-column: 2;*/
+    /*grid-row: 1;*/
+  
+   overflow: hidden;
+  
+  } 
+  
+  header p {
+    font-family: sans-serif;
+  
+    /*grid-column: 2;*/
+    /*grid-row: 2;*/
+  
+    overflow: hidden;
+  }
+  
+  header h5 {
+    display: flex;
+    align-items: flex-end;
+  }
+
 
 .left-box {
  width: 100%;
@@ -190,8 +178,6 @@ header h5 {
 }
 
 
-}
-
 .html {
   border-radius: 5px;
   background-color: yellowgreen;
@@ -335,24 +321,13 @@ a#instagram {
    background: #3B5998;
    overflow: hidden;
    font-weight: bold;
-   font-family:'Courier',sans-serif;/* 好きなフォントに変えてね */
+   font-family:'Courier',sans-serif;
    border-radius: 4px;
    font-size: 20px;
    color: white;
    text-decoration: none;
  }
 
-a#facebook {
-  background: #3b5998;
-  overflow: hidden;
-  
-  font-weight: bold;
-  font-family:'Courier',sans-serif;/* 好きなフォントに変えてね */
-  border-radius: 4px;
-  font-size: 20px;
-  color: white;
-  text-decoration: none;
-}
 
 
 footer {
@@ -365,36 +340,21 @@ footer {
 footer h3 {
   margin-top: 570px;
   padding-top: 20px;
-  /*margin-left: 620px;*/
-  /*margin-right: 620px;*/
+
   background-color: darkorange;
   height: 50px;
   padding-left: 620px;
-  /*top: 100px;*/
 }
 
-
-
-
+.one-more {
+  background-color: turquoise;
+  color: aliceblue;
+  font-size: 30px;
+  
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -404,242 +364,312 @@ footer h3 {
 
 
 /*スマホの場合*/
+@media all and (max-width: 900px) {
 
-@media screen and (min-width: 767px) {
-
-
-  .left-box {
- width: 100%;
- /*height: 300px;*/
- position: relative;
- /*background: darkred;*/
- /*width: 80%;*/
- height: 50px;
- text-align: center;
- /*margin-left: 10%;*/
-
-
-}
-
-.left-box:before {
- top: 0;
- left: 50%;
- width: 50%;
- height: 100%;
- content: '';
- position: absolute;
- /*background: #e3d7a3;*/
-}
-
-.left-box img {
-  /*margin-left: 25%;*/
-  margin-right: 800px;
-  vertical-align: middle;
-  margin-top: 200px;
-
-  border-image: linear-gradient(#f6b73c, #4d9f0c) 30;;
-}
-
-
-
-
-.right-box {
-  float: right;
-  width: 50%;
-  background-color: #FAB1AF;
-  z-index: 1;
-  padding-bottom: 20px;
-}
-
-
-}
-
-.html {
-  border-radius: 5px;
-  background-color: yellowgreen;
-  display: inline-block;
-  padding: 3px 4px;
-  margin-left: 5px;
-}
-
-.css {
-  border-radius: 5px;
-  background-color: lightyellow;
-  display: inline-block;
-  padding: 3px 4px;
-}
-
-.JavaScript {
-  border-radius: 5px;
-  background-color: lightblue;
-  display: inline-block;
-  padding: 3px 4px;
-}
-
-.Python {
-  border-radius: 5px;
-  background-color: skyblue;
-  display: inline-block;
-  padding: 3px 4px;
-}
-
-.Java {
-  border-radius: 5px;
-  background-color: rgb(170, 119, 68);
-  display: inline-block;
-  padding: 3px 4px;
-}
-
-.Word {
-  border-radius: 5px;
-  background-color: lightblue;
-  display: inline-block;
-  padding: 3px 4px;
-}
-
-.Excel {
-  background-color: darkturquoise;
-  border-radius: 5px;
-  display: inline-block;
-  padding: 3px 4px;
-}
-
-.PowerPoint {
-  background-color: orange;
-  border-radius: 5px;
-  display: inline-block;
-  padding: 3px 4px;
-}
-
-
-.html,.css,.JavaScript,.Python,.Java,.Word,.Excel,.PowerPoint {
-  position: relative;
-  cursor: pointer;
-  border-radius: 5px;
-  padding: 3px 4px;
-  margin-bottom: 5px;
-  display: inline-block;
-}
-
-
-.html:hover::after,
-.css:hover::after,
-.JavaScript:hover::after,
-.Python:hover::after,
-.Java:hover::after,
-.Word:hover::after,
-.Excel:hover::after,
-.PowerPoint:hover::after {
-  content: attr(data-text);
-  left: 50%;
-  top: -2.5rem;
-  transform: translateX(-50%);
-  display: inline-block;
-  white-space: nowrap;
-
-  position: absolute;
-  z-index: 2;
-  border-radius: 5px;
-  padding: .5em .6em;
-  color: black;
-  background: white;
-
- box-sizing: border-box;
-}
-
-/* 飛び出している部分1 */
-.html:hover::before,
-.css:hover::before,
-.JavaScript:hover::before,
-.Python:hover::before,
-.Java:hover::before,
-.Word:hover::before,
-.Excel:hover::before,
-.PowerPoint:hover::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: 2;
-  bottom: 12px;
-  left: 50%;
-  transform: translateX(-50%);
-  border: 12px solid transparent;
-  border-top: 12px solid white;
-
-  box-sizing: border-box;
-}
-
-
-
-
-a#instagram {
-   background: linear-gradient(135deg, #427EFF 0%, #F13F79 70%) no-repeat;
-   overflow: hidden;
-   font-size: 20px;
-   font-weight: bold;
-   letter-spacing: 0;
-   position: relative;
-   border-radius: 4px;
-   margin-left: 15px;
-   margin-right: 10px;
-   text-decoration: none;
-   margin-bottom: 5px;
- }
- a#facebook {
-   background: #3B5998;
-   overflow: hidden;
-   font-weight: bold;
-   font-family:'Courier',sans-serif;/* 好きなフォントに変えてね */
-   border-radius: 4px;
-   font-size: 20px;
-   color: white;
-   text-decoration: none;
- }
-
-a#facebook {
-  background: #3b5998;
-  overflow: hidden;
+  header {
+ 
+    padding-top: 10px;
   
-  font-weight: bold;
-  font-family:'Courier',sans-serif;/* 好きなフォントに変えてね */
-  border-radius: 4px;
-  font-size: 20px;
-  color: white;
-  text-decoration: none;
-}
-
-
-footer {
+    display: grid;
+    justify-content: start;
+  
+    grid-template-columns: auto,auto;
+  
+    opacity: 0.5;
+    background-color: royalblue;
+    cursor: text;
+  
+    text-align: center;
+    
+    display: block;
+  
+    }
   
 
-  
-  /*position: fixed;*/
+    header .outline1 {
+        font-size: 60px;
+        color: yellow;
+        display: flex;
+        text-align: center;
+        margin-left: 330px;
+        font-family: "Arial Black";
+        font-weight: bold;
+    }
+      
+      
+    header .outline2 {
+      
+    }
+      
+    header .outline3 {
+      /* text-align: center; */
+      
+      /* display: block; */
 
-  /*position: absolute;*/
-  /*bottom: 0;
-  right: 0;
-  left: 0;*/
-}
+      font-size: 10px;
+      
 
-
-
-footer h3 {
-  margin-top: 570px;
-  padding-top: 20px;
-  /*margin-left: 620px;*/
-  /*margin-right: 620px;*/
-  background-color: darkorange;
-  height: 40px;
-  padding-left: 620px;
-  /*top: 100px;*/
-  width: 57%;
-
-
-}
-
-
-
-}
-
-
+    }
+      
+      
+    header h4 {
+      color: yellow;
+    
+    }
+      
+    header h2 {
+      text-align: center;
+      
+      
+      
+       overflow: hidden;
+      
+    } 
+      
+    header p {
+      font-family: sans-serif;
+      
+       
+      
+      overflow: hidden;
+    }
+      
+    header h5 {
+      display: flex;
+      align-items: flex-end;
+    }
+    
+    
+    .left-box {
+     width: 100%;
+     /*height: 300px;*/
+     position: relative;
+     /*background: darkred;*/
+     /*width: 80%;*/
+     height: 50px;
+     text-align: center;
+     /*margin-left: 10%;*/
+    
+    
+    }
+    
+    .left-box:before {
+     top: 0;
+     left: 50%;
+     width: 50%;
+     height: 100%;
+     content: '';
+     position: absolute;
+     /*background: #e3d7a3;*/
+    }
+    
+    .left-box img {
+      /*margin-left: 25%;*/
+      margin-right: 750px;
+      vertical-align: middle;
+      margin-top: 150px;
+    
+      border-radius: 10px;
+      border-image: linear-gradient(#f6b73c, #4d9f0c) 30;;
+    
+      color: #474747;
+      background: whitesmoke;/*背景色*/
+    
+      border-top: double 7px #4ec4d3;
+      border-bottom: double 7px #4ec4d3;
+      border-left: double 7px #4ec4d3;
+      border-right: double 7px #4ec4d3;
+    }
+    
+    
+    
+    
+    .right-box {
+      float: right;
+      width: 50%;
+      background-color: #FAB1AF;
+      z-index: 1;
+      padding-bottom: 20px;
+    }
+    
+    
+    }
+    
+    .html {
+      border-radius: 5px;
+      background-color: yellowgreen;
+      display: inline-block;
+      padding: 3px 4px;
+      margin-left: 5px;
+    }
+    
+    .css {
+      border-radius: 5px;
+      background-color: lightyellow;
+      display: inline-block;
+      padding: 3px 4px;
+    }
+    
+    .JavaScript {
+      border-radius: 5px;
+      background-color: lightblue;
+      display: inline-block;
+      padding: 3px 4px;
+    }
+    
+    .Python {
+      border-radius: 5px;
+      background-color: skyblue;
+      display: inline-block;
+      padding: 3px 4px;
+    }
+    
+    .Java {
+      border-radius: 5px;
+      background-color: rgb(170, 119, 68);
+      display: inline-block;
+      padding: 3px 4px;
+    }
+    
+    .Word {
+      border-radius: 5px;
+      background-color: lightblue;
+      display: inline-block;
+      padding: 3px 4px;
+    
+    }
+    
+    .Excel {
+      background-color: darkturquoise;
+      border-radius: 5px;
+      display: inline-block;
+      padding: 3px 4px;
+    
+    }
+    
+    .PowerPoint {
+      background-color: orange;
+      border-radius: 5px;
+      display: inline-block;
+      padding: 3px 4px;
+    
+    }
+    
+    
+    .html,.css,.JavaScript,.Python,.Java,.Word,.Excel,.PowerPoint {
+      position: relative;
+      cursor: pointer;
+      border-radius: 5px;
+      padding: 3px 4px;
+      margin-bottom: 5px;
+      display: inline-block;
+    
+    
+    }
+    
+    
+    .html:hover::after,
+    .css:hover::after,
+    .JavaScript:hover::after,
+    .Python:hover::after,
+    .Java:hover::after,
+    .Word:hover::after,
+    .Excel:hover::after,
+    .PowerPoint:hover::after {
+      content: attr(data-text);
+      left: 50%;
+      top: -2.5rem;
+      transform: translateX(-50%);
+      display: inline-block;
+      white-space: nowrap;
+    
+      position: absolute;
+      z-index: 2;
+      border-radius: 5px;
+      padding: .5em .6em;
+      color: black;
+      background: white;
+    
+      box-sizing: border-box;
+    
+    
+    }
+    
+    /* 飛び出している部分1 */
+    .html:hover::before,
+    .css:hover::before,
+    .JavaScript:hover::before,
+    .Python:hover::before,
+    .Java:hover::before,
+    .Word:hover::before,
+    .Excel:hover::before,
+    .PowerPoint:hover::before {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: 2;
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 12px solid transparent;
+      border-top: 12px solid white;
+    
+      box-sizing: border-box;
+    
+    }
+    
+    
+    
+    
+    a#instagram {
+       background: linear-gradient(135deg, #427EFF 0%, #F13F79 70%) no-repeat;
+       overflow: hidden;
+       font-size: 20px;
+       font-weight: bold;
+       letter-spacing: 0;
+       position: relative;
+       border-radius: 4px;
+       margin-left: 15px;
+       margin-right: 10px;
+       text-decoration: none;
+       margin-bottom: 5px;
+     }
+     a#facebook {
+       background: #3B5998;
+       overflow: hidden;
+       font-weight: bold;
+       font-family:'Courier',sans-serif;/* 好きなフォントに変えてね */
+       border-radius: 4px;
+       font-size: 20px;
+       color: white;
+       text-decoration: none;
+     }
+    
+    
+    footer {
+      /*position: absolute;*/
+      
+    }
+    
+    
+    footer h3 {
+      margin-top: 570px;
+      padding-top: 20px;
+      /*margin-left: 620px;*/
+      /*margin-right: 620px;*/
+      background-color: darkorange;
+      height: 50px;
+      padding-left: 620px;
+      /*top: 100px;*/
+    }
+    
+    .one-more {
+      background-color: turquoise;
+      color: aliceblue;
+      font-size: 30px;
+      
+    }
+    
+    
+    }
 

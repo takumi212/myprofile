@@ -4,8 +4,9 @@
 
 // ここから切る。
 
+// [scripts.js]を使用している。
 
-
+// headerにクリックすると3か4行の文章が表示されるようにする。
 
 $(function() {
     $("header").children(".outline2,h5").hide();
@@ -18,64 +19,20 @@ $(function() {
     );
 });
 
-outline1
+// 背景に泡が流れているようにしている。
 
-// [scripts.js]を使用している。
+  bubbly({
+    gradientStart: '#fff4e6',
+    gradientStop: '#ffe9e4',
+    shadowBlur: 1,
+    compose: 'source-over',
+    fillFunc: () => `hsla(${Math.random() * 50}, 100%, 50%, .3)`,
+  });
+  
 
+// 僕の写真が出現する
 
-
-
-// $(function() {
-//     $("header,p").hide(); 
-//     $('#jbody').click(function() {
-//             // $("header,p").hide(2000);
-//             $("header,p").show(2000); 
-//         }
-//     );
-// });
-
-// ここから下はコメントアウト
-
-// console.log("index.js: loaded");
-
-
-
-
-// const header = document.creatElement("header");
-
-// function header() {
-
-//  $("header").each(function)() { 
-//      var elemPos = $(this).offset().top - 50;
-//      var scroll = $(window).scrollTop();
-//      var windowHeight = $(window).height();
-//      if (scroll >= elemPos - windowHeight) {
-
-//          $(this).addClass("header");
-//          $(this).children("header");
-//      }
-//  }
-// }
-
-// console.log(scroll);
-// console.log();
-
-
-// 第一（青い枠の文章を畳んだり広げたり）
-
-// $(function() {
-//     $('header').hover(function() {
-//             $("header,p").animate({'marginRight':'750px'},500);
-//         }, 
-//         function() {
-//             $("header,p").animate({'marginRight':'0'},500); 
-//         }
-//     );
-// });
-    
-
-
-
+ 
 
 
 

@@ -367,7 +367,7 @@ footer h3 {
 @media all and (max-width: 900px) {
 
   header {
- 
+    
     padding-top: 10px;
   
     display: grid;
@@ -387,7 +387,7 @@ footer h3 {
   
 
     header .outline1 {
-        font-size: 60px;
+        font-size: 26px;
         color: yellow;
         display: flex;
         text-align: center;
@@ -398,7 +398,7 @@ footer h3 {
       
       
     header .outline2 {
-      
+      height: 90px;
     }
       
     header .outline3 {
@@ -406,7 +406,7 @@ footer h3 {
       
       /* display: block; */
 
-      font-size: 10px;
+      font-size: 25px;
       
 
     }
@@ -464,14 +464,13 @@ footer h3 {
     }
     
     .left-box img {
-      /*margin-left: 25%;*/
-      margin-right: 750px;
-      vertical-align: middle;
-      margin-top: 150px;
+     
     
       border-radius: 10px;
       border-image: linear-gradient(#f6b73c, #4d9f0c) 30;;
-    
+      
+      margin-top: 70px;
+
       color: #474747;
       background: whitesmoke;/*背景色*/
     
@@ -486,10 +485,11 @@ footer h3 {
     
     .right-box {
       float: right;
-      width: 50%;
+      width: 100%;
       background-color: #FAB1AF;
       z-index: 1;
       padding-bottom: 20px;
+      margin-top: 350px;
     }
     
     
@@ -659,8 +659,13 @@ footer h3 {
       /*margin-right: 620px;*/
       background-color: darkorange;
       height: 50px;
-      padding-left: 620px;
+
+      /* padding-left: 620px; */
       /*top: 100px;*/
+
+      text-align: center;
+
+      padding-left: 130px;
     }
     
     .one-more {
@@ -672,4 +677,31 @@ footer h3 {
     
     
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
 

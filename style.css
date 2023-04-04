@@ -342,8 +342,11 @@ footer h3 {
   padding-top: 20px;
 
   background-color: darkorange;
-  height: 50px;
-  padding-left: 620px;
+  height: 40px;
+
+  text-align: center;
+ 
+
 }
 
 .one-more {
@@ -364,7 +367,7 @@ footer h3 {
 
 
 /*スマホの場合*/
-@media all and (max-width: 900px) {
+@media screen and (max-width: 900px) {
 
   header {
     
@@ -391,7 +394,7 @@ footer h3 {
         color: yellow;
         display: flex;
         text-align: center;
-        margin-left: 330px;
+       
         font-family: "Arial Black";
         font-weight: bold;
     }
@@ -658,14 +661,13 @@ footer h3 {
       /*margin-left: 620px;*/
       /*margin-right: 620px;*/
       background-color: darkorange;
-      height: 50px;
+      height: 40px;
 
-      /* padding-left: 620px; */
-      /*top: 100px;*/
+      padding-right: 30px;
 
-      text-align: center;
+      
 
-      padding-left: 130px;
+
     }
     
     .one-more {
@@ -676,32 +678,9 @@ footer h3 {
     }
     
     
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
-  
-  
-  
-  
-  
-  
+  }
+
+
+
 

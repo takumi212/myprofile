@@ -17,8 +17,8 @@ html, body,
   font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
   background-color: #C0C0C0;
 
-  height: 100%;
-  width: 420px;
+  /* height: 100%;
+  width: 100%; */
 
 
  }
@@ -55,9 +55,12 @@ html, body,
     background-color: rgb(255, 0, 183);
     cursor: text;
   
-    text-align: center;
     
     display: block;
+
+    
+
+   
   
   
   }
@@ -86,9 +89,6 @@ html, body,
   
   }
   
-  
-  
-  }
   
   header h4 {
     writing-mode: vertical-rl;
@@ -333,19 +333,23 @@ a#instagram {
 footer {
   /*position: absolute;*/
   
+  /* position: fixed;
+  width: 100%; */
+
+  margin-bottom: 130px;
 }
 
 
 
 footer h3 {
-  margin-top: 570px;
   padding-top: 20px;
 
   background-color: darkorange;
   height: 40px;
 
+  
+
   text-align: center;
- 
 
 }
 
@@ -366,8 +370,16 @@ footer h3 {
 
 
 
+
+
+
 /*スマホの場合*/
 @media screen and (max-width: 900px) {
+
+
+  body {
+    height: 1170px;
+  }
 
   header {
     
@@ -382,7 +394,7 @@ footer h3 {
     background-color: royalblue;
     cursor: text;
   
-    text-align: center;
+    /* text-align: center; */
     
     display: block;
   
@@ -394,6 +406,7 @@ footer h3 {
         color: yellow;
         display: flex;
         text-align: center;
+        margin-left: 33px;
        
         font-family: "Arial Black";
         font-weight: bold;
@@ -652,20 +665,30 @@ footer h3 {
     footer {
       /*position: absolute;*/
       
+      /* width: 100%; */
+
+      position: absolute;
+      bottom: -131px;
+
+      width: 100%;
+      
     }
     
     
     footer h3 {
-      margin-top: 570px;
+      /* margin-top: 200px; */
       padding-top: 20px;
       /*margin-left: 620px;*/
       /*margin-right: 620px;*/
       background-color: darkorange;
       height: 40px;
 
-      padding-right: 30px;
-
+      text-align: center;
       
+      /* padding-right: 30px; */
+
+      /* position: absolute; */
+      /* bottom: 0; */
 
 
     }
@@ -683,6 +706,27 @@ footer h3 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
   
   
   

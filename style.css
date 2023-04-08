@@ -152,7 +152,8 @@ html, body,
   /*margin-left: 25%;*/
   margin-right: 750px;
   vertical-align: middle;
-  margin-top: 150px;
+  margin-top: 125px;
+
 
   border-radius: 10px;
   border-image: linear-gradient(#f6b73c, #4d9f0c) 30;;
@@ -337,6 +338,8 @@ footer {
   width: 100%; */
 
   margin-bottom: 130px;
+
+  text-align: center;
 }
 
 
@@ -347,9 +350,6 @@ footer h3 {
   background-color: darkorange;
   height: 40px;
 
-  
-
-  text-align: center;
 
 }
 

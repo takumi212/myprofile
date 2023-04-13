@@ -339,7 +339,10 @@ footer {
 
   margin-bottom: 130px;
 
-  text-align: center;
+  /* text-align: center; */
+  right: 0px;
+
+
 }
 
 
@@ -347,8 +350,13 @@ footer {
 footer h3 {
   padding-top: 20px;
 
-  background-color: darkorange;
+  background-color: #B4E4FF;
   height: 40px;
+  width: 100%;
+
+  text-align: center;
+
+  
 
 
 }
@@ -378,7 +386,7 @@ footer h3 {
 
 
   body {
-    height: 1170px;
+    height: 114px;
   }
 
   header {
@@ -414,7 +422,9 @@ footer h3 {
       
       
     header .outline2 {
-      height: 90px;
+      height: 120px;
+      font-size: 1px;
+      color: yellow;
     }
       
     header .outline3 {
@@ -680,7 +690,7 @@ footer h3 {
       padding-top: 20px;
       /*margin-left: 620px;*/
       /*margin-right: 620px;*/
-      background-color: darkorange;
+      background-color: #B4E4FF;
       height: 40px;
 
       text-align: center;

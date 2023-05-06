@@ -192,6 +192,7 @@ html, body,
   background-color: lightyellow;
   display: inline-block;
   padding: 3px 4px;
+  
 }
 
 .JavaScript {
@@ -249,6 +250,7 @@ html, body,
   display: inline-block;
 
 
+
 }
 
 
@@ -261,7 +263,52 @@ html, body,
 .Excel:hover::after,
 .PowerPoint:hover::after {
   content: attr(data-text);
+
   left: 50%;
+
+  top: -2.5rem;
+  transform: translateX(-50%);
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 2;
+  border-radius: 5px;
+  padding: .5em .6em;
+  color: black;
+  background: white;
+  box-sizing: border-box;
+  
+
+}
+
+/* 飛び出している部分1 */
+.html:hover::before,
+.css:hover::before,
+.JavaScript:hover::before,
+.Python:hover::before,
+.Java:hover::before,
+.Word:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  bottom: 12px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+  border: 12px solid transparent;
+  border-top: 12px solid white;
+
+  box-sizing: border-box;
+
+}
+
+
+.Excel:hover::after,
+.PowerPoint:hover::after {
+  content: attr(data-text);
+  left: 20%;
   top: -2.5rem;
   transform: translateX(-50%);
   display: inline-block;
@@ -275,34 +322,8 @@ html, body,
   background: white;
 
   box-sizing: border-box;
-
-
+    
 }
-
-/* 飛び出している部分1 */
-.html:hover::before,
-.css:hover::before,
-.JavaScript:hover::before,
-.Python:hover::before,
-.Java:hover::before,
-.Word:hover::before,
-.Excel:hover::before,
-.PowerPoint:hover::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: 2;
-  bottom: 12px;
-  left: 50%;
-  transform: translateX(-50%);
-  border: 12px solid transparent;
-  border-top: 12px solid white;
-
-  box-sizing: border-box;
-
-}
-
-
 
 
 a#instagram {
@@ -601,6 +622,8 @@ footer h3 {
     .Java:hover::after,
     .Word:hover::after,
     .Excel:hover::after,
+    .PowerPoint:hover::after
+    .Excel:hover::after,
     .PowerPoint:hover::after {
       content: attr(data-text);
       left: 50%;
@@ -617,9 +640,11 @@ footer h3 {
       background: white;
     
       box-sizing: border-box;
-    
+
     
     }
+
+
     
     /* 飛び出している部分1 */
     .html:hover::before,
@@ -641,9 +666,10 @@ footer h3 {
       border-top: 12px solid white;
     
       box-sizing: border-box;
+
+      
     
     }
-    
     
     
     
@@ -713,31 +739,4 @@ footer h3 {
     
   
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
 

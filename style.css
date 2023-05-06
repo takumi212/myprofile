@@ -449,13 +449,22 @@ footer h3 {
        
         font-family: "Arial Black";
         font-weight: bold;
+
+        
     }
       
       
     header .outline2 {
       height: 120px;
-      font-size: 80px;
-      color: yellow;
+      color: black;
+      max-width: 100%;
+      font-size: 0.2vw;
+
+      line-height: 1;
+      overflow: hidden;
+      text-overflow: ellipsis; /* 要素の範囲を超えたテキストを省略記号で表示 */
+    
+
 
     }
       
@@ -464,7 +473,7 @@ footer h3 {
       
       /* display: block; */
 
-      font-size: 25px;
+      font-size: 16px;
       
 
     }
@@ -493,9 +502,29 @@ footer h3 {
     }
       
     header h5 {
-      display: flex;
-      align-items: flex-end;
+      /* display: flex;
+      align-items: flex-end; */
+
+      display: none;
+
     }
+
+
+    .outline2:target h5 {
+      display: flex; クリックされた場合に表示する
+      align-items: flex-end;
+
+      display: block;
+
+    }
+    
+    
+    
+    
+    
+    
+    
+
     
 
   
@@ -612,6 +641,7 @@ footer h3 {
       border-radius: 5px;
       display: inline-block;
       padding: 3px 4px;
+      /* margin-left: 5px; */
     
     }
     
@@ -624,65 +654,144 @@ footer h3 {
       margin-bottom: 5px;
       display: inline-block;
     
-    
-    }
-    
-    
-    .html:hover::after,
-    .css:hover::after,
-    .JavaScript:hover::after,
-    .Python:hover::after,
-    .Java:hover::after,
-    .Word:hover::after,
-    .Excel:hover::after,
-    .PowerPoint:hover::after
-    .Excel:hover::after,
-    .PowerPoint:hover::after {
-      content: attr(data-text);
-      left: 50%;
-      top: -2.5rem;
-      transform: translateX(-50%);
-      display: inline-block;
-      white-space: nowrap;
-    
-      position: absolute;
-      z-index: 2;
-      border-radius: 5px;
-      padding: .5em .6em;
-      color: black;
-      background: white;
-    
-      box-sizing: border-box;
-
-    
-    }
-
-
-    
-    /* 飛び出している部分1 */
-    .html:hover::before,
-    .css:hover::before,
-    .JavaScript:hover::before,
-    .Python:hover::before,
-    .Java:hover::before,
-    .Word:hover::before,
-    .Excel:hover::before,
-    .PowerPoint:hover::before {
-      content: "";
-      display: block;
-      position: absolute;
-      z-index: 2;
-      bottom: 12px;
-      left: 50%;
-      transform: translateX(-50%);
-      border: 12px solid transparent;
-      border-top: 12px solid white;
-    
-      box-sizing: border-box;
-
+      
       
     
     }
+
+.html:hover::after,
+.css:hover::after,
+.JavaScript:hover::after,
+.Python:hover::after,
+.Java:hover::after,
+.Word:hover::after {
+  content: attr(data-text);
+
+  left: 50%;
+
+  top: -2.5rem;
+  transform: translateX(-50%);
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 2;
+  border-radius: 5px;
+  padding: .5em .6em;
+  color: black;
+  background: white;
+  box-sizing: border-box;
+  
+
+}
+
+.css:hover::after {
+  content: attr(data-text);
+
+  left: 50%;
+
+  display: inline-block;
+  
+
+  font-size: 9px;
+
+  top: -2.5rem;
+  transform: translateX(-50%);
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 2;
+  border-radius: 5px;
+  padding: .5em .6em;
+  color: black;
+  background: white;
+  box-sizing: border-box;
+  
+
+}
+
+
+.Excel:hover::after,
+.PowerPoint:hover::after {
+  content: attr(data-text);
+
+  left: 10%;
+
+  top: -2.5rem;
+  transform: translateX(-50%);
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 2;
+  border-radius: 5px;
+  padding: .5em .6em;
+  color: black;
+  background: white;
+  box-sizing: border-box;
+  
+
+}
+
+/* 飛び出している部分1 */
+.html:hover::before,
+.css:hover::before,
+.JavaScript:hover::before,
+.Python:hover::before,
+.Java:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  bottom: 12px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+  border: 12px solid transparent;
+  border-top: 12px solid white;
+
+  box-sizing: border-box;
+
+}
+
+.css:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  bottom: 20px;
+
+
+  left: 50%;
+
+  transform: translateX(-50%);
+  border: 12px solid transparent;
+  border-top: 12px solid white;
+
+  box-sizing: border-box;
+
+}
+
+.Word:hover::before,
+.Excel:hover::before,
+.PowerPoint:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  bottom: 12px;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+  border: 12px solid transparent;
+  border-top: 12px solid white;
+
+  box-sizing: border-box;
+
+}
+    
+    
+    
     
     
     

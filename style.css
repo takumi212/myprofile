@@ -125,6 +125,12 @@ html, body,
   }
 
 
+
+  
+
+
+
+
 .left-box {
  width: 100%;
  /*height: 300px;*/
@@ -818,7 +824,51 @@ footer h3 {
        color: white;
        text-decoration: none;
      }
+
+     .secondurl {
+      text-align: right;
+  
+      position: absolute;
+      right: 395px;
+      bottom: 213px;
+      text-decoration: none;
+      color: yellow;
+
+      background-color: #B4E4FF;
+      border-radius: 4px;
+      font-weight: bold;
+
+      margin-left: 15px;
+      margin-right: 10px;
+      text-decoration: none;
+      margin-bottom: 5px;
+      overflow: hidden;
+      
+  
+    }
     
+    .thirdurl {
+      text-align: right;
+  
+      position: absolute;
+      right: 302px;
+      bottom: 213px;
+      text-decoration: none;
+      color: black;
+
+      background-color: white;
+      border-radius: 4px;
+      font-weight: bold;
+
+      margin-left: 15px;
+      margin-right: 10px;
+      text-decoration: none;
+      margin-bottom: 5px;
+      overflow: hidden;
+      
+    }
+
+
     
     footer {
       /*position: absolute;*/

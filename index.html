@@ -1,67 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>MyProfile</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-	<script src="scripts.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>profile2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="scripts.js"></script>
 </head>
-
-<body id="jbody">
-	<!-- <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script><script>bubbly();</script> -->
-
-	<header>
-		<h2 class="outline3">このポートフォリオについての説明</h2>
-		<p class="outline1">クリックすると表示されます。</p>
-		<p class="outline2">　私は現在、就職活動をしています。このポートフォリオはhtmlとcss、javascript（jQuery）を使用しながら制作しました。私はプログラミングを、おおよそ８００時間の経験を積み重ねています。Progateという練習サイトにて、一つのコースにつき１０周以上の訓練をしたり、ドットインストール、CODEPREPを訓練したり、オリジナルサイトを５枚以上作ったりして現在の実力まで定着させました。また、私はタッチタイプが速いです。高校生時代と大学生時代にWordとExcel、Powerpointの訓練をしています。こうした実力を駆使して社会に貢献したいです。よろしくお願いします。</p><br>
-		<h5>※このポートフォリオはMacbookPro13とiphoneXRの画面に対応しています。</h5>
-	</header>
-
-	<div class="main">
-		<script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
-		<script>bubbly();</script>
-		<div class="left-box">
-			<img src="sakura.jpg" width="288" hight="225">
-		</div>
-		<div class="right-box">
-			<!-- １番目 -->
-			<h1>プロフィール</h1>
-			<hr size="10" style="background-color: black;">
-			<p>名前：河合拓海<br>住所：静岡県磐田市👉静岡県静岡市👉神奈川県横浜市<br>学歴：静岡英和学院大学<br>趣味：トレーニング、人との会話、食事、読書</p>
-			<br>
-			<!-- ２番目 -->
-			<h2>Skill</h2>
-			<hr size="10" style="background-color: black;">
-			<div class="html" data-text="私はhtmlを使いながらWebサイト上に文字や画像、リンクを表示させることができます。">html</div>
-			<div class="css" data-text="私はhtmlによって表示させたモノの色や大きさを自在に変えることができます。また、完成させたWebサイトをパソコンとタブレット、スマホなどの画面の大きさに変えられます。">css</div>
-			<div class="JavaScript" data-text="私は、Javascriptを使用する中で、webページに変化やjQueryによるアニメーションを加えられます。">JavaScript</div>
-			<div class="Python" data-text="Pythonは、私がProgateにて10周以上の訓練をしていますが、実はProgate以外の場所で扱えた経験はありません。">Python</div>
-
-			<!-- Javaについて書いている途中 -->
-			<div class="Java" data-text="Javaは、私が現在学習をしています。">Java</div>
-
-			<div class="Word" data-text="私はWordにて、社内文書や案内状などの長い文章を作成することができます。">Word</div>
-			<div class="Excel" data-text="私はExcelにて、文字の入力をしたり関数を扱ったりしながら、グラフや表を作成することができます。">Excel</div>
-			<div class="PowerPoint" data-text="私はPowerPointにより複数回、プレゼンテーションをするための資料を作成しました。">PowerPoint</div>
-			<br><br><br>
+<body>
+    
 
 
-			<!-- ３番目 -->
-			<h3>MySite</h3>
-			<hr size="10" style="background-color: black;">
-			<a id="instagram" href="https://www.instagram.com/p/CYp4MeQPhaOjWvFLWO-9-SWRezI9nVFRUl6nuk0/?utm_medium=copy_link" >Instagram</a>
-			<a id="facebook" href="https://ja-jp.facebook.com/people/河合拓海/100034091897785/" >Facebook</a>
-		</div>
+    <div class="wrap">
+        <header>
+            <p class="nav-outline">　こちらのポートフォリオは私が就職活動の際にご提出させていただく<br>ことを予定して制作致しました。こちらのポートフォリオは、HTML、CSS、<br>JavaScript（jQuery）を使用して制作しました。この機会に、貴社でのご業<br>務に取り組ませていただけることを心より願っております。</p>
+            <p class="title">profile2</p>
+            <ul class="navthree">
+                <!-- ポートフォリオについての説明をpタグを用いて書く。 -->
+                <li><a class="one-more" href="https://takumi212.github.io/myprofile/"><span>前のページ</span></a></li>
+                <li><a href="#navstu">学生時代</a></li>
+                <li><a href="#navtra">トレーニング</a></li>
+                <li><a href="#navdre">夢</a></li>
+                <!-- <li><a class="career" href=""><span>次のページ</span></a></li> -->
+            </ul>
+        </header>
 
-	</div>
 
-	<p><a href=""></a></p>
-	<footer>
-		<!-- <p><input type="date"></p> -->
-		<h3>＠Takumi.profile</h3>
-		<!-- <p　class="one-more">ここをクリックするともう一枚のWebサイトに変わります。<a href="https://takumi212.github.io/achievements/" alt="ここをクリックするともう一枚のWebサイトに変わります。"></a></p> -->
-	</footer>
+
+        <!-- <div class="stu2"> -->
+            <p name="navstu" id="navstu">学生時代</p>
+            <p class="studentexplain" id="slide-in">　こちらは私がこれから社会に出て働くことを踏まえて、静岡県<br>の
+                駿府公園で撮った写真です。私はこのときに大学生の方々、<br>社会人の方々と一緒に静岡県の駿府公園にお出掛けしました。<br>この頃は、2020年3月でコロナウイルスが蔓延し始めた頃でし<br>た。生活を送っている中で人と人が交流をする機会が大いに<br>減ってしまいましたので、憂鬱でしたが幸せな時間でした。</p>
+            <img src="cherry.jpg" class="stuimg hidden" alt="桜で撮った写真" width="720" height="480" style="display: none;">
+            <p class="student-me">　私は静岡英和学院大学を卒業しました。大学生時代には<br>エンジニア
+                になるためにパソコンの学習をしながら学習を<br>しておりました。<br>　私はエンジニアとして活躍していくことを夢に現在頑張って<br>います。この時期に僕は大学を卒業した後に東京都あるいは<br>神奈川県のエリアでお仕事先を探して、IT企業に入社するこ<br>とを決めていました。私は</p>
+
+
+        <!-- </div> -->
+        <div class="tra2">
+            <p name="navtra" id="navtra">トレーニング</p>
+            <p class="tra-outline">　私は１６歳の頃からトレーニングをしています。忙しい時期以外は、
+                週に2回あるいは3回の<br>ペースで通いながらトレーニングの部屋を利用しながら私自身の鍛錬に励んでいました。ト<br>レーニングを継続的に行うことによって、周囲の人から認めていただけたり、自信を持つこと<br>ができたりしますので、今後一層続けていきたいです。トレーニングは、心も頭も良くする効<br>果があります。私は将来、プロのレベルまでトレーニングを上達させたいと思っています。</p>
+            <p class="rizapexplain" id="slide-in2">　こちらは[ライザップ牛サラダ]と言います。高いたん<br>ぱくと糖質が低いボリュームいっぱいのサラダです。<br>牛肉だけでなく、鶏肉・ブロッコリー・半熟玉子と<br>バランスよくたんぱく質を摂取できます。私はこち<br>らの商品をトレーニング後によく食べていました。</p>
+            <div id="image2">
+                <img src="protein.jpg"　class="hidden" alt="プロテインの画像" width="500" height="400">
+            </div>
+        </div>
+
+        
+
+        <div class="dre2">
+            <p name="navdre" id="navdre">夢</p>
+            <p class="seaexplain" id="slide-in3">　こちらは私が１９歳から２０歳になったことを機に<br>プログラミング言語の学習をスタートしたときに<br>撮った沖縄県の美浜という地域から撮った海です。</p>
+            <div id="image3">
+                <img src="sea.jpg"　class="hidden" alt="沖縄の海" width="800" height="400">
+            </div>
+            <div class="dre2ul">
+                <ul>
+                    <li>[私が叶えたい夢]</li>
+                    <li>優秀なエンジニアとして活躍すること</li>
+                    <li>色々なエンジニアの人と仲良くなること</li>
+                    <li>家族と親戚を幸せにすること</li>
+                    <li>お金持ちになること</li>
+                    <li>車を買うこと</li>
+                    <li>日本と外国に複数件の別荘を持つこと</li>
+                    <li>トレーニングをすること</li>
+                    <li>見た目が良い男性になること</li>
+                    <li>１ヶ月に１０冊の読書ができるようになること</li>
+                </ul>
+            </div>
+        </div>  
+
+        <footer>
+            <h2>@Takumi.profile2</h2>
+        </footer>
+    </div>
 </body>
-</html>

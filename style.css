@@ -125,6 +125,9 @@ html, body,
   header h5 {
     display: flex;
     align-items: flex-end;
+
+    font-weight: bold;
+
   }
 
 
@@ -516,6 +519,8 @@ footer h3 {
 
       display: none;
 
+      font-weight: bold;
+
     }
 
 
@@ -525,6 +530,7 @@ footer h3 {
 
       display: block;
 
+    
     }
     
     

@@ -125,11 +125,6 @@ html, body,
   header h5 {
     display: flex;
     align-items: flex-end;
-
-    font-weight: bold;
-
-    font-family: "Georgia", "Times New Roman", serif;
-
   }
 
 
@@ -365,55 +360,6 @@ a#instagram {
  }
 
 
- .secondurl {
-  text-align: right;
-
-  /* position: absolute; */
-  /* right: 395px; */
-  /* bottom: 213px; */
-  text-decoration: none;
-  color: yellow;
-
-  background-color: #B4E4FF;
-  border-radius: 4px;
-  font-weight: bold;
-
-  text-decoration: none;
-
-  overflow: hidden;
-
-  position: relative;
-  bottom: 1px;
-  /* top: 1px; */
-  right: 1px;
-
-
-
-
-
-}
-
-/* .thirdurl {
-  text-align: right;
-
-  position: absolute;
-  right: 302px;
-  bottom: 213px;
-  text-decoration: none;
-  color: black;
-
-  background-color: white;
-  border-radius: 4px;
-  font-weight: bold;
-
-  margin-left: 15px;
-  margin-right: 10px;
-  text-decoration: none;
-  margin-bottom: 5px;
-  overflow: hidden;
-   */
-}
-
 
 footer {
   /*position: absolute;*/
@@ -570,8 +516,6 @@ footer h3 {
 
       display: none;
 
-      font-weight: bold;
-
     }
 
 
@@ -581,7 +525,6 @@ footer h3 {
 
       display: block;
 
-    
     }
     
     
@@ -888,9 +831,9 @@ footer h3 {
      .secondurl {
       text-align: right;
   
-      /* position: absolute; */
-      /* right: 395px; */
-      /* bottom: 213px; */
+      position: absolute;
+      right: 395px;
+      bottom: 213px;
       text-decoration: none;
       color: yellow;
 
@@ -898,8 +841,8 @@ footer h3 {
       border-radius: 4px;
       font-weight: bold;
 
-      margin-left: 10px;
-      /* margin-right: 10px; */
+      margin-left: 15px;
+      margin-right: 10px;
       text-decoration: none;
       margin-bottom: 5px;
       overflow: hidden;
@@ -971,4 +914,3 @@ footer h3 {
     
   
   }
-

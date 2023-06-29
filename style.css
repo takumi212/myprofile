@@ -63,6 +63,8 @@ html, body,
 
     
 
+    
+
    
   
   
@@ -225,6 +227,13 @@ html, body,
   padding: 3px 4px;
 }
 
+.php {
+  border-radius: 5px;
+  background-color: #FF01FE;
+  display: inline-block;
+  padding: 3px 4px;
+}
+
 .Word {
   border-radius: 5px;
   background-color: lightblue;
@@ -250,7 +259,7 @@ html, body,
 }
 
 
-.html,.css,.JavaScript,.Python,.Java,.Word,.Excel,.PowerPoint {
+.html,.css,.JavaScript,.Python,.Java,.php,.Word,.Excel,.PowerPoint {
   position: relative;
   cursor: pointer;
   border-radius: 5px;
@@ -267,6 +276,7 @@ html, body,
 .css:hover::after,
 .JavaScript:hover::after,
 .Python:hover::after,
+.php:hover::after,
 .Java:hover::after,
 .Word:hover::after,
 .Excel:hover::after,
@@ -290,11 +300,14 @@ html, body,
 
 }
 
+
+
 /* 飛び出している部分1 */
 .html:hover::before,
 .css:hover::before,
 .JavaScript:hover::before,
 .Python:hover::before,
+.php:hover::before,
 .Java:hover::before,
 .Word:hover::before {
   content: "";
@@ -317,7 +330,8 @@ html, body,
 .Excel:hover::after,
 .PowerPoint:hover::after {
   content: attr(data-text);
-  left: 20%;
+
+
   top: -2.5rem;
   transform: translateX(-50%);
   display: inline-block;
@@ -701,7 +715,7 @@ footer h3 {
   display: inline-block;
   
 
-  font-size: 9px;
+  font-size: 11px;
 
   top: -2.5rem;
   transform: translateX(-50%);
@@ -724,6 +738,8 @@ footer h3 {
   content: attr(data-text);
 
   left: 10%;
+
+  font-size: 14px;
 
   top: -2.5rem;
   transform: translateX(-50%);
@@ -917,3 +933,11 @@ footer h3 {
     
   
   }
+
+
+
+
+
+
+
+

@@ -276,8 +276,8 @@ html, body,
 .css:hover::after,
 .JavaScript:hover::after,
 .Python:hover::after,
-.php:hover::after,
 .Java:hover::after,
+.php:hover::after,
 .Word:hover::after,
 .Excel:hover::after,
 .PowerPoint:hover::after {
@@ -307,8 +307,8 @@ html, body,
 .css:hover::before,
 .JavaScript:hover::before,
 .Python:hover::before,
-.php:hover::before,
 .Java:hover::before,
+.php:hover::before,
 .Word:hover::before {
   content: "";
   display: block;
@@ -635,6 +635,13 @@ footer h3 {
       display: inline-block;
       padding: 3px 4px;
     }
+
+    .php {
+      border-radius: 5px;
+      background-color: #FF00FF;
+      display: inline-block;
+      padding: 3px 4px;
+    }
     
     .Java {
       border-radius: 5px;
@@ -669,7 +676,7 @@ footer h3 {
     }
     
     
-    .html,.css,.JavaScript,.Python,.Java,.Word,.Excel,.PowerPoint {
+    .html,.css,.JavaScript,.Python,.php,.Java,.Word,.Excel,.PowerPoint {
       position: relative;
       cursor: pointer;
       border-radius: 5px;
@@ -686,6 +693,7 @@ footer h3 {
 .css:hover::after,
 .JavaScript:hover::after,
 .Python:hover::after,
+.php:hover::after,
 .Java:hover::after,
 .Word:hover::after {
   content: attr(data-text);
@@ -761,6 +769,7 @@ footer h3 {
 .css:hover::before,
 .JavaScript:hover::before,
 .Python:hover::before,
+.php:hover::before,
 .Java:hover::before {
   content: "";
   display: block;

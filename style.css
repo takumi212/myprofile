@@ -77,6 +77,8 @@ html, body,
     margin-left: 330px;
     font-family: "Arial Black";
     font-weight: bold;
+
+    margin-top: 20px;
   }
   
   
@@ -122,12 +124,15 @@ html, body,
     overflow: hidden;
   }
   
-  header h5 {
+  header .text {
     display: flex;
     align-items: flex-end;
-
     color: yellow;
     opacity: 1;
+
+    position: absolute;
+    top: 135px;
+
   }
 
 
@@ -388,12 +393,17 @@ footer {
   /*position: absolute;*/
   
   /* position: fixed;
-  width: 100%; */
+  /* width: 100%; */
 
-  margin-bottom: 130px;
+
+
+  width: 100%;
+
+  /* margin-bottom: 130px; */
 
   /* text-align: center; */
-  right: 0px;
+
+  
 
 
 }
@@ -441,7 +451,7 @@ footer h3 {
 
 
   body {
-    height: 1020px;
+    height: 1160px;
     }
 
 
@@ -473,7 +483,7 @@ footer h3 {
   
 
     header .outline1 {
-        font-size: 26px;
+        font-size: 35px;
         color: yellow;
         display: flex;
         text-align: center;
@@ -487,14 +497,13 @@ footer h3 {
       
       
     header .outline2 {
-      height: 120px;
       color: black;
       max-width: 100%;
       font-size: 0.2vw;
 
       line-height: 1;
       overflow: hidden;
-      text-overflow: ellipsis; /* 要素の範囲を超えたテキストを省略記号で表示 */
+      text-overflow: ellipsis; 要素の範囲を超えたテキストを省略記号で表示
     
 
 
@@ -533,23 +542,37 @@ footer h3 {
       overflow: hidden;
     }
       
-    header h5 {
+    header .text {
       /* display: flex;
       align-items: flex-end; */
 
-      display: none;
 
-    }
-
-
-    .outline2:target h5 {
-      display: flex; クリックされた場合に表示する
-      align-items: flex-end;
-
+      opacity: 1;
       display: block;
 
-    }
+      color: yellow;
+
+      display: inline-block;
+   
+
+      white-space: normal;
+
+      line-height: 0.9;
+      max-height: 2.4em; /* 表示する行数の設定 */
+
+      word-wrap: break-word;
+      word-break: break-all;
+
+      font-size: 18px !important; /* 優先度を上げるために!importantを追加 */
+
     
+     
+
+
+    }
+
+
+
     
     
     
@@ -916,10 +939,14 @@ footer h3 {
       
       /* width: 100%; */
 
-      position: absolute;
-      bottom: -131px;
+      /* position: absolute;
+      bottom: -131px; */
 
       width: 100%;
+
+      
+
+
       
     }
     
@@ -937,8 +964,7 @@ footer h3 {
       
       /* padding-right: 30px; */
 
-      /* position: absolute; */
-      /* bottom: 0; */
+      
 
 
     }

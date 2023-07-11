@@ -14,21 +14,21 @@
 
 <body id="jbody">
 	<!-- <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script><script>bubbly();</script> -->
-	<header style="height: 160px;">
-		<h2 class="outline3">こちらのポートフォリオについての説明</h2>
-		<p class="outline1">クリックすると表示されます。</p>
+	<header class="container-fluid" style="height: 160px; width: 100%;">
+		<h2 class="outline3 h2">こちらのポートフォリオについての説明</h2>
+		<p class="outline1 h6">クリックすると表示されます。</p>
 		<ul class="nav">
 			<!-- ポートフォリオについての説明をpタグを用いて書く。 -->
 		</ul>
-		<p class="outline2" style="display: none;">　私は現在、就職活動をしています。こちらのポートフォリオはhtmlとcss、javascript（jQuery）を使用しながら制作しました。私はプログラミングを９００時間以上かけて経験しています。Progateという練習サイトにて、一つのコースにつき１０周以上の訓練をしたり、ドットインストール、CODEPREPを訓練したり、オリジナルサイトを５枚以上作ったりして現在の実力まで定着させました。また、私はタッチタイプが速いです。高校生時代と大学生時代にWordとExcel、Powerpointの訓練をしています。このような実力を駆使して社会に貢献したいです。よろしくお願いします。</p>
-		<h5 style="display: none;">※こちらのポートフォリオはMacbookPro13とiphoneXRの画面に対応しています。</h5>
+		<p class="outline2 h6" style="display: none;">　私は現在、就職活動をしています。こちらのポートフォリオはhtmlとcss、javascript（jQuery）を使用しながら制作しました。私はプログラミングを９００時間以上かけて経験しています。Progateという練習サイトにて、一つのコースにつき１０周以上の訓練をしたり、ドットインストール、CODEPREPを訓練したり、オリジナルサイトを５枚以上作ったりして現在の実力まで定着させました。また、私はタッチタイプが速いです。高校生時代と大学生時代にWordとExcel、Powerpointの訓練をしています。このような実力を駆使して社会に貢献したいです。よろしくお願いします。</p>
+		<small class="text" style="display: none; font-size: 20px;">※こちらのポートフォリオはMacbookPro13とiphoneXRの画面に対応しています。</small>
 	</header>
 
 	<div class="main">
 		<script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script>
 		<script>bubbly();</script>
 		<div class="left-box">
-			<img src="sakura.jpg" width="288" hight="225">
+			<img src="sakura.jpg" class="img-fluid" width="288" hight="225">
 		</div>
 		<div class="right-box">
 			<!-- １番目 -->
@@ -67,9 +67,11 @@
 	</div>
 
 	<p><a href=""></a></p>
-	<footer style="background-color: #B4E4FF;">
+	<footer style="background-color: #B4E4FF; position: fixed; bottom: 0; flex; justify-content: center; align-items: flex-end; width: 100%;">
 		<!-- <p><input type="date"></p> -->
-		<h3>＠Takumi.profile</h3>
+		<div class="d-flex justify-content-center">
+			<h3>＠Takumi.profile</h3>
+		</div>
 		<!-- <p　class="one-more">ここをクリックするともう一枚のWebサイトに変わります。<a href="https://takumi212.github.io/achievements/" alt="ここをクリックするともう一枚のWebサイトに変わります。"></a></p> -->
 	</footer>
 </body>

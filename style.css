@@ -133,7 +133,9 @@ html, body,
     position: absolute;
     top: 135px;
 
-    
+    display: block;
+
+
 
   }
 

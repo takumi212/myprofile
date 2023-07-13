@@ -47,6 +47,8 @@ html, body,
   
    }
 
+
+
   header {
    
     /* padding-top: 10px; */
@@ -133,7 +135,7 @@ html, body,
     position: absolute;
     top: 135px;
 
-    display: block;
+
 
 
 
@@ -505,16 +507,23 @@ footer h3 {
     header .outline2 {
       color: black;
       max-width: 100%;
-      font-size: 0.2vw;
 
       line-height: 1;
       overflow: hidden;
       text-overflow: ellipsis; 要素の範囲を超えたテキストを省略記号で表示
+
+      font-size: 16px;
+
     
-
-
     }
-      
+    
+    
+    .outline2.h6 {
+      display: block !important;
+    }
+
+
+
     header .outline3 {
       /* text-align: center; */
       
@@ -571,7 +580,7 @@ footer h3 {
 
       font-size: 18px !important; /* 優先度を上げるために!importantを追加 */
 
-    
+  
      
 
 

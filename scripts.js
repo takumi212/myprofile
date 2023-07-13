@@ -4,23 +4,21 @@
 
 
 
-
 $(function() {
-  $("header").children(".outline2,h5").hide();
+  $("header").children(".outline2,small.text").hide();
   $("header").children(".outline1").show();
-  $("header").click(function() {
+  $("header").on("click", function() {
     if ($("header").children(".outline1").is(":visible")) {
       $("header").children(".outline1").fadeOut(1000, function() {
-        $("header").children(".outline2,h5").fadeIn(1000);
+        $("header").children(".outline2,small.text").fadeIn(1000);
       });
     } else {
-      $("header").children(".outline2,h5").fadeOut(1000, function() {
+      $("header").children(".outline2,small.text").fadeOut(1000, function() {
         $("header").children(".outline1").fadeIn(1000);
       });
     }
   });
 });
-
 
 
 

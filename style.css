@@ -491,7 +491,7 @@ footer h3 {
   
 
     header .outline1 {
-        font-size: 35px;
+        font-size: 5.5vh;
         color: yellow;
         display: flex;
         text-align: center;
@@ -520,6 +520,7 @@ footer h3 {
     
     .outline2.h6 {
       display: block !important;
+      font-size: 11px;
     }
 
 
@@ -578,7 +579,7 @@ footer h3 {
       word-wrap: break-word;
       word-break: break-all;
 
-      font-size: 18px !important; /* 優先度を上げるために!importantを追加 */
+      font-size: 13px !important; /* 優先度を上げるために!importantを追加 */
 
   
      
@@ -994,11 +995,3 @@ footer h3 {
     
   
   }
-
-
-
-
-
-
-
-

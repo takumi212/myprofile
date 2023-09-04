@@ -491,11 +491,11 @@ footer h3 {
   
 
     header .outline1 {
-        font-size: 4.5vh;
+        font-size: 4vh;
         color: yellow;
         display: flex;
         text-align: center;
-        margin-left: 33px;
+        /* margin-left: 33px; */
        
         font-family: "Arial Black";
         font-weight: bold;
@@ -519,7 +519,8 @@ footer h3 {
     
     
     .outline2.h6 {
-      display: block !important;
+      /* display: block !important; */
+
       font-size: 11px;
     }
 

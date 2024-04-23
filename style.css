@@ -485,7 +485,7 @@ footer h3 {
 
     overflow: hidden;
 
-    
+
   
     }
   
@@ -520,8 +520,11 @@ footer h3 {
     
     .outline2.h6 {
       /* display: block !important; */
-
       font-size: 11px;
+
+      margin-top: -7px;
+
+
     }
 
 
@@ -589,17 +592,6 @@ footer h3 {
     }
 
 
-
-    
-    
-    
-    
-    
-    
-
-    
-
-  
     
     .left-box {
      width: 100%;

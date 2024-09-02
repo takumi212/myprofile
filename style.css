@@ -1039,11 +1039,13 @@ footer h3 {
   bottom: -20px;
   display: block;
   z-index: 5;
+
+
 }
 
 
 .clock-title {
-  font-size: 20px;
+  font-size: 17px;
 
   position: absolute;
   right: 20px;
@@ -1061,7 +1063,7 @@ footer h3 {
 
 
 .clock-line {
-  font-size: 30px;
+  font-size: 25px;
   color: #555;
   font-weight: bold;
 

@@ -23,6 +23,8 @@ html, body,
 
  }
 
+
+
 .li {
   list-style: square inside;
 }
@@ -50,24 +52,17 @@ html, body,
 
 
   header {
-   
-    /* padding-top: 10px; */
-  
     display: grid;
     justify-content: start;
-  
     grid-template-columns: auto,auto;
-  
     opacity: 0.5;
     background-color: rgb(255, 0, 183);
     cursor: text;
-  
-    
     display: block;
 
+    font-family: 'Arial', sans-serif !important;
+    text-shadow: 2px 2px 3px rgba(128, 128, 128, 0.5); /* 薄い灰色の影 */
     
-
-  
   }
   
   
@@ -87,6 +82,8 @@ html, body,
   header .outline2 {
     font-size: 95%;
     font-weight: bold;
+
+
   }
   
   header .outline3 {
@@ -135,6 +132,7 @@ html, body,
 
     position: absolute;
     top: 135px;
+
 
 
 
@@ -557,12 +555,15 @@ footer h3 {
     header .outline2 {
       color: black;
       max-width: 100%;
-
       line-height: 1;
       overflow: hidden;
       text-overflow: ellipsis; 要素の範囲を超えたテキストを省略記号で表示
-
       font-size: 16px;
+
+
+      font-family: 'Arial', sans-serif !important;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* 黒い影を追加 */
+      
 
     
     }

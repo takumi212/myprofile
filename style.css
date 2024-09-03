@@ -204,11 +204,8 @@ html, body,
   width: 50%;
   background-color: #FAB1AF;
   z-index: 1;
-
   padding-bottom: 20px;
-
   margin-top: -20px;
-
   border-radius: 10px;
 }
 
@@ -370,6 +367,12 @@ html, body,
 
   box-sizing: border-box;
     
+}
+
+
+
+.right-box h3 {
+  margin-top: 30px;
 }
 
 
@@ -918,7 +921,14 @@ footer h3 {
       box-sizing: border-box;
 
     }
-        
+      
+  
+
+
+    .right-box h3 {
+      margin-top: 30px;
+    }
+
         
 
     

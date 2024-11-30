@@ -415,8 +415,6 @@ footer {
 
 
 
-  
-
 
 }
 
@@ -443,11 +441,18 @@ footer h3 {
   text-align: right;
   position: absolute;
   right: 10px;
-  bottom: -20px;
+
+  bottom: 0px;
+
   display: block;
   z-index: 5;
 
   color: black !important;
+
+  
+
+  
+
 }
 
 
@@ -465,6 +470,10 @@ footer h3 {
 
   color: black !important;
 
+  
+
+
+
 
 }
 
@@ -476,7 +485,15 @@ footer h3 {
 
   color: black !important;
 
+  margin-bottom: 20px;
+
+  
+
+
+
+
 }
+
 
 
 
@@ -1080,6 +1097,8 @@ footer h3 {
   font-weight: bold;
 
   color: yellow;
+
+  margin-bottom: 20px;
 
 }
 

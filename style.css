@@ -520,6 +520,51 @@ footer h3 {
 
 
 
+
+
+
+
+
+
+
+@media (min-width: 901px) and (max-width: 949px) {
+
+
+
+  .outline3,h2 {
+    
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*スマホの場合*/
 @media screen and (max-width: 900px) {
 
